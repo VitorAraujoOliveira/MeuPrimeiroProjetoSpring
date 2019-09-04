@@ -19,8 +19,12 @@ import javax.persistence.Table;
 @Table(name = "empresa")
 public class Empresa implements Serializable {
 
-	private static final long serialVersionUID = 4862991749577621407L;
 
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 6552332255743926290L;
 	private Long id;
 	private String razaoSocial;
 	private String cnpj;
@@ -98,10 +102,10 @@ public class Empresa implements Serializable {
 		dataAtualizacao = atual;
 	}
 
+	
 	@Override
-			 public String toString() {
-			 return "Empresa [id=" + id + ", razaoSocial=" + razaoSocial + ",
-			cnpj=" + cnpj + ", dataCriacao=" + dataCriacao
-			 + ", dataAtualizacao=" + dataAtualizacao + "]";
-			 }
+	public String toString() {
+		return "Empresa [id=" + id + ", razaoSocial=" + razaoSocial + ", cnpj=" + cnpj + ", dataCriacao=" + dataCriacao
+				+ ", dataAtualizacao=" + dataAtualizacao + ", funcionarios=" + funcionarios + "]";
+	}
 }
