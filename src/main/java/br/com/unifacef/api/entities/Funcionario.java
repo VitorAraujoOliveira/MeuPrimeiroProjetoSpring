@@ -1,4 +1,4 @@
-package br.com.unifacef.api.enums;
+package br.com.unifacef.api.entities;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
@@ -19,6 +19,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
+
 import br.com.unifacef.api.enums.PerfilEnum;
 
 @Entity

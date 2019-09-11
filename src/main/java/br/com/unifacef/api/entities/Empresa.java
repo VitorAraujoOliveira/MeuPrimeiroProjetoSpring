@@ -1,4 +1,4 @@
-package br.com.unifacef.api.enums;
+package br.com.unifacef.api.entities;
 
 import java.io.Serializable;
 import java.util.Date;

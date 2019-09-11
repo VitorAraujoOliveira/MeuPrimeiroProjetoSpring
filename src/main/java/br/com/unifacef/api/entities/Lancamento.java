@@ -1,4 +1,4 @@
-package br.com.unifacef.api.enums;
+package br.com.unifacef.api.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -14,8 +14,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
+//import javax.persistence.Temporal;
+//import javax.persistence.TemporalType;
 
 import br.com.unifacef.api.enums.TipoEnum;
 
